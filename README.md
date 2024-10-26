@@ -1,0 +1,1 @@
+--module-path "D:\javafx-sdk-17.0.13\lib"  --add-modules javafx.controls,javafx.graphics,javafx.fxml,javafx.base
