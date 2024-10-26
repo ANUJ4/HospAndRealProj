@@ -1,0 +1,226 @@
+#loginheader{
+	-fx-background-color:#5d98f7;
+}
+#fadedButton
+ {
+    -fx-background:none;
+    -fx-padding:0;
+    -fx-cursor: hand;
+}
+
+.buttonUser
+ {
+    -fx-background:none;
+    -fx-padding:0;
+    -fx-cursor: pointer;
+}
+
+#loginbackground
+{
+	-fx-background-color:#f3f4f4;
+}
+
+#frontmain{
+	-fx-background-color:#ffffff;
+	-fx-background-radius:10px;
+	-fx-border-width:1;
+	-fx-border-color:lightgrey;
+	-fx-border-radius:10px;
+}
+
+#frontbutton{
+	-fx-background-color:#5d98f7;
+}
+
+
+#closePane:hover{
+	-fx-background-color:#FF0000;
+}
+.closePane:hover{
+	-fx-background-color:#FF0000;
+	-fx-background-radius:100%;
+	-fx-border-radius:100%
+}
+.imagePhoto{
+		-fx-border-radius:100%;
+		-fx-background-radius:100%;
+
+
+}
+
+
+.headDashBoardPane{
+	-fx-background-color: #3c8dbc;
+	-fx-background-radius:5;
+}
+.headLabel{
+	-fx-font-size:21px;
+	-fx-font-weight:bold;
+	-fx-text-fill:#ffffff;
+	-fx-font-family: Arial;
+}
+
+
+
+
+
+.anchorPaneBackground{
+	-fx-background-size: 1200 900;
+	-fx-background-radius: 30;
+	-fx-background-color:#ffffff;
+	-fx-border-radius: 10;
+	-fx-border-width:1;
+}
+
+.btn{
+	-fx-border-color: transparent;
+ 	-fx-border-width: 1px;
+  	-fx-border-style: solid;
+	-fx-background-insets: 0, 0, -1, 0;
+	-fx-text-alignment: center;
+	-fx-cursor: default;
+	-fx-min-width: 80;
+}
+
+.-btn_primary{
+	-fx-background-color:#2b77ba;
+	-fx-text-fill:#ffffff;
+}
+.-btn_success{
+	-fx-background-color:#50ba54;
+	-fx-text-fill:#ffffff;
+	
+}
+.-btn_danger{
+	-fx-background-color:#de534a;
+	-fx-text-fill:#ffffff;
+	
+}
+
+
+.tree-cell {   
+   -fx-padding: 0.6em 0em 0.6em 0.3em;
+   -fx-text-fill: #212121;
+   -fx-font: 15px "Segoe UI";
+}
+.tree-view:focused {
+   -fx-background-color: -fx-box-border,-fx-box-border,white;
+}
+
+
+.tree-view .tree-cell {
+    -fx-background-color: white;
+    -fx-background-radius:0px 100px 100px 0px;
+
+}
+
+.tree-view .tree-cell:empty:hover {
+    -fx-background-color: white;
+}
+.tree-view .tree-cell:hover {
+    -fx-background-color: -fx-box-border,rgb(231,231,231);
+    
+}
+.tree-view .tree-cell:filled:selected:hover {
+    -fx-background-color: -fx-box-border, rgb(205,205,205);
+}
+.tree-view:focused .tree-cell:focused {
+    -fx-background-color: -fx-box-border, white;   
+}
+.tree-view:focused .tree-cell:focused:hover {
+    -fx-background-color: -fx-box-border,rgb(231,231,231);   
+}
+.tree-view:focused .tree-cell:filled:focused:selected,
+.tree-view:focused .tree-cell:filled:focused:selected:hover {
+    -fx-background-color: -fx-box-border, rgb(205,205,205); 
+}
+.tree-cell:filled:selected:focused, .tree-cell:filled:selected {
+    -fx-background-color: -fx-box-border,rgb(205,205,205);   
+}
+.tree-cell .tree-disclosure-node .arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-padding: 0.27em;
+    -fx-shape: "M4,17v-2.889l4.124-3.86l4.125,3.86V17l-4.125-3.375L4,17z";
+    -fx-rotate: 90;
+}
+.tree-cell:expanded .tree-disclosure-node .arrow {
+    -fx-rotate: 180;
+}
+.tree-cell:filled:hover .tree-disclosure-node .arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+}
+.tree-cell .tree-disclosure-node {
+    -fx-padding: 2;    
+}
+
+.tree-view .tree-cell:hover{
+	-fx-padding:10 15;
+}
+
+
+.tree-column {
+	-fx-alignment:center;
+}
+
+.table-view {
+
+  -fx-focus-color: none;
+}
+ .table-row-cell:empty {
+    -fx-background-color: white;
+}
+ 
+ 
+ 
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+ .table-row-cell:selected .table-cell {
+   -fx-background-color: lightblue; 
+}
+.table-row-cell:selected .text {
+       -fx-fill: black ;
+
+}
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-view .cell{
+  -fx-cell-size:44;
+  -fx-alignment: CENTER;
+  -fx-background-color: white;
+  -fx-font-size: 13px ;
+  -fx-text-fill: black;
+  -fx-alignment: CENTER_LEFT;
+  }
+
+
+.jfx-date-picker .input-line {
+    -fx-background-color: white;
+}
+.jfx-date-picker .input-focused-line {
+    -fx-background-color: red;
+}
+
+.button_edit{
+    -fx-background:none;
+    -fx-padding:8;
+    -fx-cursor: hand;
+    
+}
+
+
+
+.menu-item{
+	-fx-padding:10;
+}
+
+
+
+.itemButton{
+	-fx-background-radius:100%;
+	
+}
+

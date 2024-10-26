@@ -1,0 +1,71 @@
+
+.btn{
+	-fx-border-color: transparent;
+ 	-fx-border-width: 1px;
+  	-fx-border-style: solid;
+	-fx-background-insets: 0, 0, -1, 0;
+	-fx-text-alignment: center;
+	-fx-cursor: default;
+	-fx-min-width: 80;
+}
+
+.-btn_primary{
+	-fx-background-color:#2b77ba;
+	-fx-text-fill:#ffffff;
+}
+.-btn_success{
+	-fx-background-color:#50ba54;
+	-fx-text-fill:#ffffff;
+	
+}
+.-btn_danger{
+	-fx-background-color:#de534a;
+	-fx-text-fill:#ffffff;
+	
+}
+
+
+.tab-pane
+{
+    -fx-tab-min-width:100px;
+}
+
+.tab{
+	-fx-padding: 5px;
+    -fx-background-insets: 0.0;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #3c8dbc;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color:#E6E7E5; 
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: Black;
+}
+
+
+.tab-pane *.tab-header-background
+{
+       -fx-background-color:#3c8dbc; 
+}
+
+.tab:selected .focus-indicator
+{
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+}
+
+
