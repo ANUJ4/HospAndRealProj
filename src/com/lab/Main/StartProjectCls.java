@@ -17,7 +17,8 @@ public class StartProjectCls extends Application {
 
 			primaryStage.initStyle(StageStyle.UNDECORATED);
 			stage = primaryStage;
-			Parent root = FXMLLoader.load(getClass().getResource("/fxaml/sample.fxml"));
+			//Parent root = FXMLLoader.load(getClass().getResource("/fxaml/sample.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("/fxaml/Home.fxml"));
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("/css/application.css").toExternalForm());
 			primaryStage.setScene(scene);

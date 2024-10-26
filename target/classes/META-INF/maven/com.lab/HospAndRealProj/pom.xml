@@ -1,10 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.lab</groupId>
-  <artifactId>HospAndRealProj</artifactId>
-  <version>0.0.1</version>
-  <packaging>jar</packaging>
- <properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.lab</groupId>
+	<artifactId>HospAndRealProj</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+	<properties>
 		<spring.version>5.1.7.RELEASE</spring.version>
 		<spring.versionBack>5.1.5.RELEASE</spring.versionBack>
 		<hibernate.version>5.2.9.Final</hibernate.version>
@@ -47,6 +49,11 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
 			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.jfoenix</groupId>
+			<artifactId>jfoenix</artifactId>
+			<version>9.0.10</version>
 		</dependency>
 		<dependency>
 			<groupId>com.itextpdf</groupId>
@@ -103,13 +110,6 @@
 			<artifactId>controlsfx</artifactId>
 			<version>9.0.0</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.jfoenix</groupId>
-			<artifactId>jfoenix</artifactId>
-			<version>9.0.0</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
